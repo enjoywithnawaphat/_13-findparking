@@ -1,0 +1,113 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@font-face {
+  font-family: 'SukhumvitSet';
+  src: url('/Font/SukhumvitSet-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'SukhumvitSet', sans-serif;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:3rem;
+  }
+  
+  .otp-card {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .otp-title {
+    font-size: 33px;
+    margin-top: -60px;
+    font-weight: bold;
+    color: #333333;
+
+  }
+  
+  .otp-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .otp-description {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  .otp-link {
+    color: #7e57c2;
+    cursor: pointer;
+  }
+  
+  .otp-link:hover {
+    text-decoration: underline;
+  }
+  
+  .otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .otp-input {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #333333;
+    border-radius: 8px;
+
+  }
+  
+  .otp-resend {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 40px;
+  }
+  
+  .otp-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .otp-cancel {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .otp-cancel:active {
+    background-color: #919191;
+  }
+  
+  .otp-confirm {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #7e57c2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .otp-confirm:active {
+    background-color: #603a96;
+  }

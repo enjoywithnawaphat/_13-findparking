@@ -1,0 +1,55 @@
+/* กำหนดสไตล์สำหรับ container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    /* background-color: #f7f7f7; */
+    border-radius: 20px;
+    /* box-shadow: 0 0 10px rgb(255, 255, 255); */
+    padding: 5%;
+    /* margin: 1rem; */
+    
+}
+
+
+    
+
+.logo-text {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    align-content: center;
+}
+
+/* สไตล์สำหรับข้อความ */
+.message {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* สไตล์สำหรับปุ่ม */
+.confirm-button {
+    background-color: #ff5a00;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin: 1rem;
+}
+
+.confirm-button:hover {
+    background-color: #e04a00;
+    margin: 1rem;
+}
+
+.start-logo{
+    width: 20rem;
+    margin-top: 1rem;
+}

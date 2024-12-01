@@ -1,0 +1,153 @@
+/* โครงสร้างทั่วไป */
+.container {
+    text-align: center;
+  }
+
+  .time-picker{
+    margin-top: 20px;
+  }
+  
+  /* หัวข้อ */
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* การจัดการป้ายกำกับและอินพุต */
+  .input-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  input {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  /* การ์ดข้อมูล */
+  .card {
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .card-header {
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-info {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* กราฟวงกลม */
+  .graph {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .graph-svg {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .graph-circle {
+    stroke: #ddd;
+    fill: transparent;
+  }
+  
+  .graph-progress {
+    stroke: red;
+    fill: transparent;
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+  
+  .graph-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .graph-percentage {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .graph-detail {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .loading-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10000;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup-content button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .popup-content button:hover {
+    background: #0056b3;
+  }
+  

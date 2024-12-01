@@ -1,0 +1,100 @@
+/* ตั้งค่าองค์ประกอบหลัก */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@font-face {
+  font-family: 'SukhumvitSet';
+  src: url('/Font/SukhumvitSet-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'SukhumvitSet', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .layer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+    border-radius: 15px;
+
+
+    text-align: center;
+  }
+  
+  /* สไตล์สำหรับชื่อแอป */
+  .color {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00b900;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  /* สไตล์สำหรับ input */
+  .layer input[type="text"],
+  .layer input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-bottom: #9E9191 solid 2px;
+    
+  }
+  
+  /* สไตล์สำหรับปุ่มล็อกอิน */
+  .login {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #e4e4e4;
+    border: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: not-allowed;
+  }
+  
+  /* สไตล์สำหรับปุ่มเข้าสู่ระบบด้วยคิวอาร์โค้ด */
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* สไตล์สำหรับลิงก์ */
+  .link {
+    color: #586cae;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 9rem;
+  }
+  
+  /* สไตล์สำหรับข้อความเพิ่มเติมด้านล่าง */
+  .footer {
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-bottom: -13rem;
+    display: flex;
+    justify-content: space-around;
+
+  }

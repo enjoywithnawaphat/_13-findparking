@@ -1,0 +1,121 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    align-items: center;
+    margin-top: -12%;
+    margin-left: -4%;
+    position: relative; /* ใช้ position เพื่อจัดปุ่ม Back */
+  }
+  .bi-arrow-left {
+    position: absolute;
+    margin-right: 5rem;
+    left: -10%; /* จัดให้อยู่ทางซ้าย */
+    top: -120%; /* จัดให้อยู่ที่ด้านบน */
+    
+}
+
+  
+  /* ปฏิทิน (เลือกวัน) */
+  .date-picker {
+    padding: 10px 15px; /* เพิ่ม Padding */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem; /* ขยายฟอนต์ */
+    width: 100%; /* ขยายให้เต็มหน้าจอ */
+    max-width: calc(100% - 20px); /* เว้นขอบเล็กน้อย */
+    text-align: center;
+    margin: 0 10px; /* เพิ่มระยะห่างจากปุ่ม Back */
+    margin-bottom: 5%;
+  }
+  
+  
+  /* Time Picker */
+  .time-picker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .time-input {
+    padding: 10px 15px; /* เพิ่ม Padding */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem; /* ขยายฟอนต์ */
+    width: 45%; /* เพิ่มความกว้าง */
+    text-align: center;
+  }
+  
+  .time-to {
+    font-size: 1.2rem; /* ขยายฟอนต์คำว่า "To" */
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  
+  /* Parking Locations */
+  .location-list {
+    margin-bottom: 20px;
+  }
+  
+  .location-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .location-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .location-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .location-item:hover {
+    background-color: #e0e0e0; /* สีเมื่อ hover */
+  }
+  
+  /* Footer Menu */
+  .footer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #473366;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .payment-icon {
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .bi-qr-code {
+    color: #ff7043;
+    background-color: transparent;
+    border: none;
+  }
+  
+  button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,115 @@
+.parkinglist-container {
+  /* border: 1px solid #ccd0d5; */
+margin: 0 auto;
+/* padding: 2rem; */
+max-width: 100%;
+/* padding-top: 10%; */
+width: 100vw;
+height: 110vh;
+border-radius: 15px;
+/* background-color: #f9f9f9; */
+/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.parkinglist-box{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.parkinglist-arrow{
+  font-size: 2rem;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+
+.bi-geo-alt{
+  margin-left: 3%;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.location-list {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.location-item.selected {
+  background-color: #e0e0e0;
+}
+
+.location-icon {
+  font-size: 22px;
+  margin-right: 14px;
+  color: #f44336;
+}
+
+.location-name {
+  font-size: 18px;
+  margin-left: 2%;
+}
+
+.pre-register-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  background-color: #5c3b90;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: black;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  text-align: center;
+}
+
+.success-popup-content {
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 48px;
+  color: green; /* สีเครื่องหมายถูก */
+  margin-bottom: 10px;
+}
+
+.success-popup-content p {
+  margin: 0;
+  font-size: 16px;
+  color: black; /* สีข้อความ */
+  line-height: 1.5;
+}

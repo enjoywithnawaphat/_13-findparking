@@ -1,0 +1,133 @@
+.history-header {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+    font-weight: bold;
+    font-size: 1.25rem;
+    /* margin-top: -135px; */
+    /* border: 1px solid; */
+
+}
+
+.history-box{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.history-container{
+    /* border: 1px solid #ccd0d5; */
+margin: 0 auto;
+/* padding: 2rem; */
+
+max-width: 100%;
+width: 100vw;
+height: 90vh;
+border-radius: 15px;
+/* background-color: #f9f9f9; */
+/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom:  1px solid #ccc;
+    background-color: #fff;
+}
+
+.history-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #4a235a;
+    width: 20%;
+}
+
+.history-item-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #333;
+    margin-left: 20px;
+}
+
+.history-item-text span {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.load-more {
+    display: block;
+    width: 80%;
+    margin: 1.5rem auto;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #4a235a;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: 30px;
+
+}
+
+.load-more:hover {
+    background-color: #6c3483;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4a235a;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    position: relative;
+    top: 110px;
+    box-sizing: border-box;
+    width: 395px;
+    height: 110px
+    
+}
+
+.footer-menu button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.footer-menu button.active {
+    color: #dcdde1; /* สีเมนูที่เลือก */
+}
+
+.footer-menu button span {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+
+.Notification {
+    padding-left: 10px;
+}
+
+.item {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+.active {
+    background-color: #4a235a;
+}

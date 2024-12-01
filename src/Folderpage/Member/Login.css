@@ -1,0 +1,126 @@
+/* LoginScreen.css */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@font-face {
+  font-family: 'SukhumvitSet';
+  src: url('/Font/SukhumvitSet-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'SukhumvitSet', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-size: cover;
+    padding: 25px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo-image {
+    width: 18rem;
+    margin-bottom: 10px;
+  }
+  
+
+
+   .username-input,
+  .password-input {
+    
+    width: 90%;
+    max-width: 500px;
+    padding: 12px;
+    border: solid gray 1px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+    margin-right: 5rem;
+  }
+
+  .login-error{
+    font-size: 12px;
+    color: #ff0000; 
+    margin-right: 6rem;
+    margin-top: -5px;
+  }
+  
+  .login-forgot{
+    font-size: 12px;
+    color: #ff0000; 
+    margin-top: -5px;
+    margin-left: 12rem;
+  }
+
+  .login-button,
+  .signup-button,
+  .line-button {
+    width: 80%;
+    max-width: 300px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .login-button {
+    background-color: #FF6A1A;
+    color: #ffffff;
+  }
+  
+  .signup-button {
+    background-color: #473366;
+    color: #000000;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+  }
+  
+  .line-button {
+    background-color: #748D8C;
+    color: #ffffff;
+    display: flex; /* ทำให้เนื้อหาภายในเรียงในแนวนอน */
+    flex-direction: row;
+    align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+    justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางในแนวนอน */
+    border-radius: 20px; /* ขอบมน */
+    padding: 12px 20px; /* เพิ่มระยะห่างด้านในของปุ่ม */
+    border: none; /* ลบเส้นขอบ */
+    cursor: pointer; /* เปลี่ยนเมาส์เป็นมือ */
+    width: 80%; /* กำหนดความกว้างของปุ่ม */
+    max-width: 300px; /* จำกัดความกว้างสูงสุด */
+}
+
+.line-icon {
+    width: 20px; /* กำหนดขนาดของไอคอน */
+    height: 20px; /* ให้เป็นสี่เหลี่ยมจัตุรัส */
+    margin-right: 10px; /* เว้นระยะห่างระหว่างไอคอนกับข้อความ */
+}
+
+.line-text {
+    font-size: 16px; /* กำหนดขนาดตัวอักษร */
+    font-weight: bold; /* เพิ่มความหนาให้ตัวอักษร */
+    margin: 0; /* ลบค่า margin เริ่มต้นของ span */
+}
+
+
+  
+  .sen{
+    border: 0.5px solid;
+    width: 20rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    color: #969292;
+  }

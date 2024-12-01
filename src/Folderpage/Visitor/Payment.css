@@ -1,0 +1,72 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@font-face {
+  font-family: 'SukhumvitSet';
+  src: url('/Font/SukhumvitSet-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'SukhumvitSet', sans-serif;
+}
+
+.payment-container{
+  margin: 0; 
+  width: 100vw; 
+  max-width: 100%;
+  height: 100vh; 
+  max-height: 100%;
+}
+
+.payment-parking-header {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.payment-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.payment-button i {
+  font-size: 20px;
+}
+
+
+.payment-button-qr{
+  background-color: #473366;
+  color: #ffffff;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.payment-button.truemoney {
+  background-color: #f7f7f7;
+  color: #333;
+  border: 1px solid #ddd;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex; /* ทำให้เนื้อหาภายในเรียงในแนวนอน */
+  flex-direction: row;
+}
+
+.truemoney-logo {
+  height: 20px; 
+}
+
+.bi-arrow-left-short{
+  font-size: 2rem;
+  text-align: left;
+}

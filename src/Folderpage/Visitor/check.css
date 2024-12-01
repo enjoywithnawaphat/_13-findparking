@@ -1,0 +1,53 @@
+.check-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* จัดกลางในแนวตั้ง */
+  align-items: center; /* จัดกลางในแนวนอน */
+  height: 100vh; /* ใช้ความสูงเต็มหน้าจอ */
+  width: 100vw;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  position: relative;
+}
+
+.check-back {
+  position: absolute; /* วางลูกศรไว้ที่มุม */
+  top: 20px; /* ระยะจากด้านบน */
+  left: 20px; /* ระยะจากด้านซ้าย */
+  font-size: 36px; /* เพิ่มขนาดลูกศร */
+  cursor: pointer;
+}
+
+.check-header {
+  background-color: #e0e0e0;
+  padding: 20px 30px; /* เพิ่มขนาดช่องว่างในกล่อง */
+  border-radius: 15px; /* เพิ่มความโค้งมน */
+  margin-bottom: 30px; /* เพิ่มระยะห่างจากด้านล่าง */
+  text-align: center;
+}
+
+.check-header p {
+  margin: 0;
+  font-size: 24px; /* เพิ่มขนาดฟอนต์ของข้อความ */
+  font-weight: bold;
+}
+
+.check-details {
+  font-size: 20px; /* เพิ่มขนาดฟอนต์ของรายละเอียด */
+  line-height: 2; /* เพิ่มระยะห่างระหว่างบรรทัด */
+  margin-bottom: 30px; /* เพิ่มระยะห่างจากด้านล่าง */
+  text-align: center;
+}
+
+.check-explain h3 {
+  font-size: 24px; /* เพิ่มขนาดหัวข้อ */
+  font-weight: bold;
+  margin-bottom: 10px; /* เพิ่มระยะห่างจากข้อความ */
+  text-align: center;
+}
+
+.check-explain p {
+  font-size: 20px; /* เพิ่มขนาดข้อความคำอธิบาย */
+  margin: 0;
+  text-align: center;
+}
